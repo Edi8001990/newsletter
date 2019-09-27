@@ -6,19 +6,23 @@ body{
 
 .wrapper{
     background-color: aliceblue;
-    margin: 10%;
+    margin: 10% 5%;
 }
 
 .green-block{
-    z-index: 88989999;
     text-align: center;
     background-image: url('../img/green-block.png'), linear-gradient(90deg, rgba(18,135,109,1) 0%, rgba(42,87,77,1) 100%) !important;
     background-repeat: no-repeat !important;
-    background-size: auto !important;
+    /* background-size: auto !important; */
     background: rgb(18,135,109);
-    padding:3% 0;
-
+    padding:3% 1%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
+
+
 
 
 @font-face {
@@ -32,16 +36,15 @@ body{
     src: url('../fonts/nexa/nexa-light.woff');
   }
   
-  .green-block-header {
-    padding-top: 2%;
-    padding-bottom: 2%;   
+  .green-block-header, .blue-block-header, .orange-block-header {
+    padding: 2% 2% 2% 2%;
     font-family: sansation-bold;
     color:white;
   }
 
   .row{
-      margin-left:4%;
-      margin-right:4%;
+      /* margin-left:1%;
+      margin-right:1%; */
   }
 
 
@@ -56,11 +59,11 @@ body{
       color: white;
       font-size: 20px;
       text-align: left;
-      padding:0 7% 4% 7%; 
+      padding:0 7% 7% 7%; 
   }
 
 
-  .button-green{
+  .button-green, .button-blue, .button-orange{
     background: #f4f4f4;
     background-image: -webkit-linear-gradient(top, #f4f4f4, #ffffff);
     background-image: -moz-linear-gradient(top, #f4f4f4, #ffffff);
@@ -82,8 +85,75 @@ body{
   
   }
 
-  .button-green:hover {
+  .button-green:hover, .button-green:hover, .button-orange:hover{
     background: rgba(255, 255, 255, 0);
     text-decoration: none;
     color: #ffffff;
   }
+
+
+
+  /*blue*/
+
+  .blue-block{
+  
+    text-align: center;
+    background-image: url('../img/blue-block.png'),  linear-gradient(90deg, rgba(12,120,220,1) 0%, rgba(50,184,201,1) 100%) !important;
+    background-repeat: no-repeat !important;
+    /* background-size: auto !important; */
+    background: rgb(12,120,220);
+    padding:3% 1%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.orange-block{
+  
+  text-align: center;
+  background-image: url('../img/orange-block.png'),  linear-gradient(90deg, rgba(209,157,44,1) 0%, rgba(209,118,52,1) 100%) !important;
+  background-repeat: no-repeat !important;
+  /* background-size: auto !important; */
+  background: rgb(209,157,44);
+  padding:3% 1%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.block-paragraph-centered{
+  font-family: nexa-light;
+      color: white;
+      font-size: 18px;
+      text-align: center;
+      padding:0 2% 7% 2%; 
+}
+
+.centered{
+  margin: 0 auto;
+  
+}
+
+
+
+.icon-container {
+  margin :0 auto; 
+  border: 15px solid #f4f4f4;
+  border-radius: 50%;
+  background-color: #f4f4f4; 
+  /* width: 20%; */
+  -webkit-box-shadow: 0px 1px 5px #666666;
+  -moz-box-shadow: 0px 1px 5px #666666;
+  box-shadow: 0px 1px 5px #666666;
+  max-width: 20%;
+  height: auto;
+  
+  
+}
+
+.icon-container img{
+  max-width: 100%;
+  height: auto;
+}
