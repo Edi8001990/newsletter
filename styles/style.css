@@ -1,11 +1,19 @@
 body{
     margin: 0 auto;
-
-
 }
 
+.logo-main{
+  padding: 3% 0%;
+  text-align: center;
+  width: 30%;
+  margin: 0 auto;
+  
+}
+
+
+
 .wrapper{
-    background-color: aliceblue;
+    background-color: white;
     margin: 10% 5%;
 }
 
