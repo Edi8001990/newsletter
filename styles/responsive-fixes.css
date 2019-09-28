@@ -1,0 +1,34 @@
+
+
+  @media screen and (max-width: 1200px) {
+        .icon-container {
+            border: 7px solid #f4f4f4 !important;
+        }
+
+        .block-paragraph-centered, .block-paragraph, .button-green, .button-blue, .button-orange{
+            font-size: 15px;
+        }
+    }
+
+
+  @media screen and (max-width: 770px) {
+    h1{
+        font-size: 25px;
+    }
+
+    h3{
+        font-size: 19px;
+    }
+    
+    .icon-container{
+        max-width: 15%;
+    }
+
+    .button-green, .button-blue, .button-orange{
+        border: solid #ffffff 1px;
+    }
+
+    .adress-block{
+        padding: 3% 0%;
+      }
+  }
