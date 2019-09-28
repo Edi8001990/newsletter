@@ -31,4 +31,9 @@
     .adress-block{
         padding: 3% 0%;
       }
+
+
+      .button-green, .button-blue, .button-orange{
+          margin-bottom: 5%;
+      }
   }
